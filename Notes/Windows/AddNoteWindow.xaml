@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="AddNoteWindow" 
         Height="480" 
-        Width="800">
+        Width="800"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <StackPanel>
             <TextBlock Text="My Notes"

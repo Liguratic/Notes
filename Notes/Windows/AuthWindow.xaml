@@ -8,7 +8,8 @@
         Title="Login" 
         Height="510" 
         Width="400"
-        ResizeMode="NoResize">
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <StackPanel>
             <TextBlock Text="My Notes"

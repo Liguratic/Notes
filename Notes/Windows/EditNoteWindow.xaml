@@ -5,7 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Notes.Windows"
         mc:Ignorable="d"
-        Title="EditNoteWindow" Height="480" Width="800">
+        Title="EditNoteWindow" 
+        Height="480" 
+        Width="800"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <StackPanel>
             <TextBlock Text="My Notes"
