@@ -29,7 +29,7 @@ namespace Notes.Windows
             DB.Notes noteAdd = new DB.Notes();
 
             noteAdd.Topic = txtTopic.Text;
-            noteAdd.Message = txtTopic.Text;
+            noteAdd.Message = txtMessage.Text;
             noteAdd.DateAndTime = DateTime.Now;
             noteAdd.IdUser = Classes.AuthData.userData.IdUser;
 
