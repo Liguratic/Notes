@@ -1,0 +1,79 @@
+﻿<Window x:Class="Notes.AuthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Notes"
+        mc:Ignorable="d"
+        Title="Login" 
+        Height="510" 
+        Width="400"
+        ResizeMode="NoResize">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="My Notes"
+                       HorizontalAlignment="Left"
+                       FontSize="26"
+                       FontWeight="DemiBold"
+                       Margin="5 5 0 0" 
+                       FontFamily="Rockwell Extra Bold"/>
+
+            <TextBlock Text="LogIn"
+                       HorizontalAlignment="Center"
+                       FontSize="26"
+                       Margin="0 10 0 0"
+                       FontWeight="DemiBold"/>
+                
+            <TextBlock Text="Username"
+                       HorizontalAlignment="Center"
+                       FontSize="18"
+                       Margin="0 80 0 0"
+                       FontWeight="DemiBold"/>
+
+            <TextBox x:Name="txtLogin"
+                     Width="150"
+                     Height="25"
+                     FontSize="18"
+                     VerticalContentAlignment="Center"
+                     BorderThickness="2"
+                     Margin="0 5 0 0"/>
+
+            <TextBlock Text="Password"
+                       HorizontalAlignment="Center"
+                       FontSize="18"
+                       Margin="0 35 0 0"
+                       FontWeight="DemiBold"/>
+
+            <PasswordBox x:Name="txtPassword"
+                     Width="150"
+                     Height="25"
+                     FontSize="18"
+                     VerticalContentAlignment="Center"
+                     BorderThickness="2"
+                     Margin="0 5 0 0"/>
+
+            <Button x:Name="btnSignIn"
+                    Content="Login"
+                    Width="150"
+                    Height="25"
+                    FontSize="15"
+                    Margin="0 70 0 0"
+                    HorizontalAlignment="Center"
+                    HorizontalContentAlignment="Center"
+                    Click="btnSignIn_Click"/>
+
+            <Button x:Name="btnGuest"
+                    Width="150"
+                    Height="25"
+                    FontSize="15"
+                    Margin="0 40 0 0"
+                    Content="Login as guest"
+                    HorizontalAlignment="Center"
+                    HorizontalContentAlignment="Center"
+                    Background="{x:Null}"
+                    BorderThickness="0"
+                    Click="btnGuest_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Window>
